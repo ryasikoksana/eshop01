@@ -4,7 +4,7 @@ $('document').ready(function(){
 
 function loadGoods() {
   // загружаем товары на сттраницу
-  $.getGSON('goods.json', function(data) {
+  $.getJSON('goods.json', function(data) {
   //console.log(data);   
     var out = '';
     for (var key in data){
